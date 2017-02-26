@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840C3D971E55A41900742FC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C3D961E55A41900742FC7 /* AppDelegate.swift */; };
+		840C3D9C1E55A41900742FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C3D9A1E55A41900742FC7 /* Main.storyboard */; };
+		840C3D9E1E55A41900742FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C3D9D1E55A41900742FC7 /* Assets.xcassets */; };
+		840C3DA11E55A41900742FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C3D9F1E55A41900742FC7 /* LaunchScreen.storyboard */; };
+		840C3DAB1E55A4B500742FC7 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C3DAA1E55A4B500742FC7 /* MasterTableVC.swift */; };
+		840C3DB31E55A9B300742FC7 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C3DB21E55A9B300742FC7 /* DataItem.swift */; };
+		840C3DC91E55B2E400742FC7 /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DB61E55B2E400742FC7 /* Arsenal.png */; };
+		840C3DCA1E55B2E400742FC7 /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DB71E55B2E400742FC7 /* Chelsea.png */; };
+		840C3DCB1E55B2E400742FC7 /* EPL Banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DB81E55B2E400742FC7 /* EPL Banner.jpg */; };
+		840C3DCC1E55B2E400742FC7 /* EPL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DB91E55B2E400742FC7 /* EPL.jpg */; };
+		840C3DCD1E55B2E400742FC7 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DBA1E55B2E400742FC7 /* Liverpool.png */; };
+		840C3DCE1E55B2E400742FC7 /* MC.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DBB1E55B2E400742FC7 /* MC.png */; };
+		840C3DCF1E55B2E400742FC7 /* MU.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DBC1E55B2E400742FC7 /* MU.png */; };
+		840C3DD01E55B2E400742FC7 /* Anfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DBE1E55B2E400742FC7 /* Anfield.jpg */; };
+		840C3DD11E55B2E400742FC7 /* Emirates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DBF1E55B2E400742FC7 /* Emirates.jpg */; };
+		840C3DD21E55B2E400742FC7 /* Etihad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC01E55B2E400742FC7 /* Etihad.jpg */; };
+		840C3DD31E55B2E400742FC7 /* Old Trafford.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC11E55B2E400742FC7 /* Old Trafford.JPG */; };
+		840C3DD41E55B2E400742FC7 /* Stamford Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC21E55B2E400742FC7 /* Stamford Bridge.jpg */; };
+		840C3DD51E55B2E400742FC7 /* 1stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC41E55B2E400742FC7 /* 1stars.png */; };
+		840C3DD61E55B2E400742FC7 /* 2stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC51E55B2E400742FC7 /* 2stars.png */; };
+		840C3DD71E55B2E400742FC7 /* 3stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC61E55B2E400742FC7 /* 3stars.png */; };
+		840C3DD81E55B2E400742FC7 /* 4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC71E55B2E400742FC7 /* 4stars.png */; };
+		840C3DD91E55B2E400742FC7 /* 5stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C3DC81E55B2E400742FC7 /* 5stars.png */; };
+		844873D81E62EA14009986EA /* Customer_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844873D61E62EA14009986EA /* Customer_TableViewCell.swift */; };
+		844873D91E62EA14009986EA /* Customer_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844873D71E62EA14009986EA /* Customer_TableViewCell.xib */; };
+		84E4F0641E55B84200816490 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4F0631E55B84200816490 /* DetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840C3D931E55A41900742FC7 /* Customize_UItableViewcell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Customize_UItableViewcell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C3D961E55A41900742FC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		840C3D9B1E55A41900742FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840C3D9D1E55A41900742FC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840C3DA01E55A41900742FC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840C3DA21E55A41900742FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C3DAA1E55A4B500742FC7 /* MasterTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		840C3DB21E55A9B300742FC7 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		840C3DB61E55B2E400742FC7 /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		840C3DB71E55B2E400742FC7 /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		840C3DB81E55B2E400742FC7 /* EPL Banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EPL Banner.jpg"; sourceTree = "<group>"; };
+		840C3DB91E55B2E400742FC7 /* EPL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EPL.jpg; sourceTree = "<group>"; };
+		840C3DBA1E55B2E400742FC7 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		840C3DBB1E55B2E400742FC7 /* MC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC.png; sourceTree = "<group>"; };
+		840C3DBC1E55B2E400742FC7 /* MU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MU.png; sourceTree = "<group>"; };
+		840C3DBE1E55B2E400742FC7 /* Anfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Anfield.jpg; sourceTree = "<group>"; };
+		840C3DBF1E55B2E400742FC7 /* Emirates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emirates.jpg; sourceTree = "<group>"; };
+		840C3DC01E55B2E400742FC7 /* Etihad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Etihad.jpg; sourceTree = "<group>"; };
+		840C3DC11E55B2E400742FC7 /* Old Trafford.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Trafford.JPG"; sourceTree = "<group>"; };
+		840C3DC21E55B2E400742FC7 /* Stamford Bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stamford Bridge.jpg"; sourceTree = "<group>"; };
+		840C3DC41E55B2E400742FC7 /* 1stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1stars.png; sourceTree = "<group>"; };
+		840C3DC51E55B2E400742FC7 /* 2stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2stars.png; sourceTree = "<group>"; };
+		840C3DC61E55B2E400742FC7 /* 3stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3stars.png; sourceTree = "<group>"; };
+		840C3DC71E55B2E400742FC7 /* 4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4stars.png; sourceTree = "<group>"; };
+		840C3DC81E55B2E400742FC7 /* 5stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5stars.png; sourceTree = "<group>"; };
+		844873D61E62EA14009986EA /* Customer_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer_TableViewCell.swift; sourceTree = "<group>"; };
+		844873D71E62EA14009986EA /* Customer_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Customer_TableViewCell.xib; sourceTree = "<group>"; };
+		84E4F0631E55B84200816490 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840C3D901E55A41900742FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840C3D8A1E55A41900742FC7 = {
+			isa = PBXGroup;
+			children = (
+				840C3D951E55A41900742FC7 /* Customize_UItableViewcell */,
+				840C3D941E55A41900742FC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840C3D941E55A41900742FC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840C3D931E55A41900742FC7 /* Customize_UItableViewcell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840C3D951E55A41900742FC7 /* Customize_UItableViewcell */ = {
+			isa = PBXGroup;
+			children = (
+				844873DA1E62EB72009986EA /* Customize_TableView */,
+				8419C4A51E62E38000567DC1 /* Custom_TableViewCell */,
+				840C3DB41E55B2E400742FC7 /* images */,
+				840C3D961E55A41900742FC7 /* AppDelegate.swift */,
+				84E4F0631E55B84200816490 /* DetailVC.swift */,
+				840C3DB21E55A9B300742FC7 /* DataItem.swift */,
+				840C3D9A1E55A41900742FC7 /* Main.storyboard */,
+				840C3D9D1E55A41900742FC7 /* Assets.xcassets */,
+				840C3D9F1E55A41900742FC7 /* LaunchScreen.storyboard */,
+				840C3DA21E55A41900742FC7 /* Info.plist */,
+			);
+			path = Customize_UItableViewcell;
+			sourceTree = "<group>";
+		};
+		840C3DB41E55B2E400742FC7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				840C3DB51E55B2E400742FC7 /* Logo Football Club */,
+				840C3DBD1E55B2E400742FC7 /* Stadium */,
+				840C3DC31E55B2E400742FC7 /* Star Rating Images */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		840C3DB51E55B2E400742FC7 /* Logo Football Club */ = {
+			isa = PBXGroup;
+			children = (
+				840C3DB61E55B2E400742FC7 /* Arsenal.png */,
+				840C3DB71E55B2E400742FC7 /* Chelsea.png */,
+				840C3DB81E55B2E400742FC7 /* EPL Banner.jpg */,
+				840C3DB91E55B2E400742FC7 /* EPL.jpg */,
+				840C3DBA1E55B2E400742FC7 /* Liverpool.png */,
+				840C3DBB1E55B2E400742FC7 /* MC.png */,
+				840C3DBC1E55B2E400742FC7 /* MU.png */,
+			);
+			path = "Logo Football Club";
+			sourceTree = "<group>";
+		};
+		840C3DBD1E55B2E400742FC7 /* Stadium */ = {
+			isa = PBXGroup;
+			children = (
+				840C3DBE1E55B2E400742FC7 /* Anfield.jpg */,
+				840C3DBF1E55B2E400742FC7 /* Emirates.jpg */,
+				840C3DC01E55B2E400742FC7 /* Etihad.jpg */,
+				840C3DC11E55B2E400742FC7 /* Old Trafford.JPG */,
+				840C3DC21E55B2E400742FC7 /* Stamford Bridge.jpg */,
+			);
+			path = Stadium;
+			sourceTree = "<group>";
+		};
+		840C3DC31E55B2E400742FC7 /* Star Rating Images */ = {
+			isa = PBXGroup;
+			children = (
+				840C3DC41E55B2E400742FC7 /* 1stars.png */,
+				840C3DC51E55B2E400742FC7 /* 2stars.png */,
+				840C3DC61E55B2E400742FC7 /* 3stars.png */,
+				840C3DC71E55B2E400742FC7 /* 4stars.png */,
+				840C3DC81E55B2E400742FC7 /* 5stars.png */,
+			);
+			path = "Star Rating Images";
+			sourceTree = "<group>";
+		};
+		8419C4A51E62E38000567DC1 /* Custom_TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				844873D61E62EA14009986EA /* Customer_TableViewCell.swift */,
+				844873D71E62EA14009986EA /* Customer_TableViewCell.xib */,
+			);
+			name = Custom_TableViewCell;
+			sourceTree = "<group>";
+		};
+		844873DA1E62EB72009986EA /* Customize_TableView */ = {
+			isa = PBXGroup;
+			children = (
+				840C3DAA1E55A4B500742FC7 /* MasterTableVC.swift */,
+			);
+			name = Customize_TableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840C3D921E55A41900742FC7 /* Customize_UItableViewcell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C3DA51E55A41900742FC7 /* Build configuration list for PBXNativeTarget "Customize_UItableViewcell" */;
+			buildPhases = (
+				840C3D8F1E55A41900742FC7 /* Sources */,
+				840C3D901E55A41900742FC7 /* Frameworks */,
+				840C3D911E55A41900742FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Customize_UItableViewcell;
+			productName = Customize_UItableViewcell;
+			productReference = 840C3D931E55A41900742FC7 /* Customize_UItableViewcell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840C3D8B1E55A41900742FC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					840C3D921E55A41900742FC7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 840C3D8E1E55A41900742FC7 /* Build configuration list for PBXProject "Customize_UItableViewcell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840C3D8A1E55A41900742FC7;
+			productRefGroup = 840C3D941E55A41900742FC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840C3D921E55A41900742FC7 /* Customize_UItableViewcell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840C3D911E55A41900742FC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C3DCA1E55B2E400742FC7 /* Chelsea.png in Resources */,
+				840C3DD11E55B2E400742FC7 /* Emirates.jpg in Resources */,
+				840C3DC91E55B2E400742FC7 /* Arsenal.png in Resources */,
+				840C3DCB1E55B2E400742FC7 /* EPL Banner.jpg in Resources */,
+				840C3DA11E55A41900742FC7 /* LaunchScreen.storyboard in Resources */,
+				840C3DD81E55B2E400742FC7 /* 4stars.png in Resources */,
+				840C3DCD1E55B2E400742FC7 /* Liverpool.png in Resources */,
+				840C3DCF1E55B2E400742FC7 /* MU.png in Resources */,
+				840C3D9E1E55A41900742FC7 /* Assets.xcassets in Resources */,
+				840C3DCC1E55B2E400742FC7 /* EPL.jpg in Resources */,
+				840C3DD71E55B2E400742FC7 /* 3stars.png in Resources */,
+				840C3DD91E55B2E400742FC7 /* 5stars.png in Resources */,
+				840C3D9C1E55A41900742FC7 /* Main.storyboard in Resources */,
+				840C3DCE1E55B2E400742FC7 /* MC.png in Resources */,
+				840C3DD51E55B2E400742FC7 /* 1stars.png in Resources */,
+				840C3DD41E55B2E400742FC7 /* Stamford Bridge.jpg in Resources */,
+				840C3DD21E55B2E400742FC7 /* Etihad.jpg in Resources */,
+				840C3DD31E55B2E400742FC7 /* Old Trafford.JPG in Resources */,
+				844873D91E62EA14009986EA /* Customer_TableViewCell.xib in Resources */,
+				840C3DD61E55B2E400742FC7 /* 2stars.png in Resources */,
+				840C3DD01E55B2E400742FC7 /* Anfield.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840C3D8F1E55A41900742FC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E4F0641E55B84200816490 /* DetailVC.swift in Sources */,
+				840C3D971E55A41900742FC7 /* AppDelegate.swift in Sources */,
+				840C3DB31E55A9B300742FC7 /* DataItem.swift in Sources */,
+				844873D81E62EA14009986EA /* Customer_TableViewCell.swift in Sources */,
+				840C3DAB1E55A4B500742FC7 /* MasterTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		840C3D9A1E55A41900742FC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C3D9B1E55A41900742FC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840C3D9F1E55A41900742FC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C3DA01E55A41900742FC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840C3DA31E55A41900742FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840C3DA41E55A41900742FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840C3DA61E55A41900742FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Customize_UItableViewcell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeDung.Customize-UItableViewcell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840C3DA71E55A41900742FC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Customize_UItableViewcell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LeDung.Customize-UItableViewcell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840C3D8E1E55A41900742FC7 /* Build configuration list for PBXProject "Customize_UItableViewcell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C3DA31E55A41900742FC7 /* Debug */,
+				840C3DA41E55A41900742FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C3DA51E55A41900742FC7 /* Build configuration list for PBXNativeTarget "Customize_UItableViewcell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C3DA61E55A41900742FC7 /* Debug */,
+				840C3DA71E55A41900742FC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840C3D8B1E55A41900742FC7 /* Project object */;
+}
